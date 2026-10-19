@@ -72,9 +72,9 @@ h6,
 .navbar-brand .logo,
 .ty-navbar-2-brand .logo,
 .logo.footer-logo {
-  width: 140px;
-  height: 40px;
-  background: url(/img/logo.png);
+  width: clamp(170px, 19vw, 230px);
+  height: clamp(49px, 5.5vw, 66px);
+  background: url(/img/logo-dark.png);
   background-size: contain;
   background-repeat: no-repeat;
   filter: none;
@@ -425,7 +425,8 @@ h6,
 }
 
 .footer-logo {
-  width: 150px;
+  width: 230px;
+  height: 66px;
   filter: none;
   margin-bottom: 30px;
 }
