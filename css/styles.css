@@ -69,14 +69,15 @@ h6,
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
+.navbar-brand .logo,
 .ty-navbar-2-brand .logo,
 .logo.footer-logo {
   width: 140px;
   height: 40px;
-  background: url(/img/logo.svg);
+  background: url(/img/logo.png);
   background-size: contain;
   background-repeat: no-repeat;
-  filter: brightness(0) invert(1);
+  filter: none;
 }
 
 .navbar-nav .nav-link {
@@ -425,7 +426,7 @@ h6,
 
 .footer-logo {
   width: 150px;
-  filter: brightness(0) invert(1);
+  filter: none;
   margin-bottom: 30px;
 }
 
